@@ -5,7 +5,7 @@ export const newArtifact = (artifact) => ({
 
 export const expectingArtifact = () => ({
     type: 'EXPECTING_ARTIFACT'
-})
+});
 
 export const deleteArtifact = (index) => ({
     type: 'DELETE_ARTIFACT',
@@ -33,4 +33,4 @@ export const createJob = (job) => ({
 export const startJob = (job) => ({
     type: 'START_JOB',
     job
-})
+});
